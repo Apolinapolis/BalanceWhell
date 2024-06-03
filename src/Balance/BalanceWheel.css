@@ -1,0 +1,76 @@
+:root {
+  --accentBlueColor: #38cde7bf;
+  --accentRedColor: #510606;
+}
+
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--accentBlueColor);
+}
+
+h2 {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--accentBlueColor);
+  opacity: 0.7;
+}
+
+h4 {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--accentBlueColor);
+  margin: 5px auto;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 180px 180px;
+}
+
+.form-group {
+  margin-top: 15px;
+  flex: 1 1 35%;
+}
+
+.recharts-wrapper {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--accentBlueColor);
+}
+textarea {
+  width: 365px;
+}
+
+.result {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.result__text h2{
+  font-size: 17px;
+  opacity: 1;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 600px) {
+  .result {
+    flex-direction: column-reverse; 
+  }
+}

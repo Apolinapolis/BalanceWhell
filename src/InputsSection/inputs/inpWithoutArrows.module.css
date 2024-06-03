@@ -1,0 +1,59 @@
+  /* WebKit and Blink */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  :root {
+    --border-radius: 3px;
+    --border: 2px solid #3b3b3b;
+    --control-size: 38px;
+    --font-size: 20px;
+    --accentBlueColor: #067c91bf;
+  }
+  
+  /* Buttons */
+
+  .valueControl {
+    margin: 0 6px;
+    width: var(--control-size);
+    height: var(--control-size);
+    font-size: var(--font-size);
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+    border-radius: var(--border-radius);
+    border: var(--border);
+    color: var(--accentBlueColor);
+  }
+  .valueControl:hover {
+    outline: 2px solid #510606;
+    outline-offset: 1px
+  }
+  .valueControl:active {
+    background: #510606;
+  }
+  
+  /* Input */
+
+  .valueInput {
+    width: 50px;
+    height: var(--control-size);
+    font-size: var(--font-size);
+    background-color:#656b73;
+    text-align: center;
+    color: #510606;
+    border: 2px solid transparent;
+    border-radius: 10px;
+  }
+  .valueInput:hover {
+    outline: 2px solid #510606;
+    outline-offset: 1px
+  }
+  .valueInput:focus {
+    border: 2px solid #510606;
+    outline: none;
+  }
+
+    
