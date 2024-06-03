@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BalanceWhell/static/css/main.eaa4a678.css",
+    "main.js": "/BalanceWhell/static/js/main.399c4bba.js",
+    "index.html": "/BalanceWhell/index.html",
+    "main.eaa4a678.css.map": "/BalanceWhell/static/css/main.eaa4a678.css.map",
+    "main.399c4bba.js.map": "/BalanceWhell/static/js/main.399c4bba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaa4a678.css",
+    "static/js/main.399c4bba.js"
+  ]
+}
